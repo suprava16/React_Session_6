@@ -1,5 +1,5 @@
 import React from "react"
-import NewComponent from "./ClassProps/NewComponent"
+import NewComponent from "./NewComponent"
 export default class PropsCom extends React.Component{
   render(){
     console.log(this.props)
