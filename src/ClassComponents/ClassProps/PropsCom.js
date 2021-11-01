@@ -10,6 +10,7 @@ export default class PropsCom extends React.Component{
         {/* <h1>Name:{this.props.name}</h1>
         <h1>Roll:{this.props.roll}</h1>
         <h1>Age:{this.props.age}</h1> */}
+        {/* After destructuring */}
         <h1>Name:{name}</h1>
         <h1>Roll:{roll}</h1>
         <h1>Age:{age}</h1>

@@ -1,7 +1,7 @@
 import React from "react"
-
 export default class NewComponent extends React.Component {
   render(){
+    console.log(this.props)
     const{name,roll,age}=this.props.value
     return(
       <div>
