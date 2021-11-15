@@ -8,6 +8,8 @@ import ChangeEvent from "./ClassComponents/ClassState/ChangeEvent"
 import AddData from "./ClassComponents/ClassState/AddData"
 import ArrayElements from "./ClassComponents/Array/ArrayElements"
 import ArrayOfObject from "./ClassComponents/Array/ArrayOfObject"
+import ConditionalRendering from "./ClassComponents/ConditionalRendering/ConditionalRendering"
+import Main from "./ClassComponents/LifeCycle/Main"
 export class App extends React.Component{
   render(){
     return(
@@ -21,7 +23,9 @@ export class App extends React.Component{
       {/* <ChangeEvent/> */}
       {/* <AddData/> */}
       {/* <ArrayElements/> */}
-      <ArrayOfObject/>
+      {/* <ArrayOfObject/> */}
+      {/* <ConditionalRendering/> */}
+      <Main/>
       </div>
     )
   }
