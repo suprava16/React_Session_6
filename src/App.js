@@ -10,6 +10,7 @@ import ArrayElements from "./ClassComponents/Array/ArrayElements"
 import ArrayOfObject from "./ClassComponents/Array/ArrayOfObject"
 import ConditionalRendering from "./ClassComponents/ConditionalRendering/ConditionalRendering"
 import Main from "./ClassComponents/LifeCycle/Main"
+import Fetch from "./ClassComponents/Apis/Fetch"
 export class App extends React.Component{
   render(){
     return(
@@ -25,7 +26,8 @@ export class App extends React.Component{
       {/* <ArrayElements/> */}
       {/* <ArrayOfObject/> */}
       {/* <ConditionalRendering/> */}
-      <Main/>
+      {/* <Main/> */}
+      <Fetch/>
       </div>
     )
   }
