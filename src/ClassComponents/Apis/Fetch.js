@@ -23,7 +23,7 @@ export default class Fetch extends Component {
         {this.state.user.map((u,i)=>{
           return(
             <div>
-            <h1>firstname:{u.first_name}</h1>
+            <h1 style={{backgroundColor:"blue"}} >firstname:{u.first_name}</h1>
             <img src={u.avatar} alt="image"/>
             </div>
           )

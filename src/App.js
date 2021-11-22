@@ -12,6 +12,9 @@ import ConditionalRendering from "./ClassComponents/ConditionalRendering/Conditi
 import Main from "./ClassComponents/LifeCycle/Main"
 import Fetch from "./ClassComponents/Apis/Fetch"
 import Post_api from "./ClassComponents/Apis/Post_api"
+import Greet from "./Functiona components/Greet"
+import FunctionProps from "./Functiona components/FunctionProps"
+import FunctionStateVariable from "./Functiona components/FunctionStateVariable"
 export class App extends React.Component{
   render(){
     return(
@@ -29,7 +32,10 @@ export class App extends React.Component{
       {/* <ConditionalRendering/> */}
       {/* <Main/> */}
       {/* <Fetch/> */}
-      <Post_api/>
+      {/* <Post_api/> */}
+      {/* <Greet/> */}
+      {/* <FunctionProps name="suprava" email="suprava@gmail.com"/> */}
+      <FunctionStateVariable/>
       </div>
     )
   }
