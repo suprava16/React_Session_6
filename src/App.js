@@ -4,7 +4,7 @@ import PropsCom from "./ClassComponents/ClassProps/PropsCom"
 import ComponentTwo from "./ClassComponents/ClassProps/ComponentTwo"
 import StateVariable from "./ClassComponents/ClassState/StateVariable"
 import SetStateMethod from "./ClassComponents/ClassState/SetStateMethod"
-import ChangeEvent from "./ClassComponents/ClassState/ChangeEvent"
+// import ChangeEvent from "./ClassComponents/ClassState/ChangeEvent"
 import AddData from "./ClassComponents/ClassState/AddData"
 import ArrayElements from "./ClassComponents/Array/ArrayElements"
 import ArrayOfObject from "./ClassComponents/Array/ArrayOfObject"
@@ -15,6 +15,8 @@ import Post_api from "./ClassComponents/Apis/Post_api"
 import Greet from "./Functiona components/Greet"
 import FunctionProps from "./Functiona components/FunctionProps"
 import FunctionStateVariable from "./Functiona components/FunctionStateVariable"
+import ChangeEvent from "./Functiona components/ChangeEvent"
+import Design from "./MaterialUi/Design"
 export class App extends React.Component{
   render(){
     return(
@@ -35,7 +37,9 @@ export class App extends React.Component{
       {/* <Post_api/> */}
       {/* <Greet/> */}
       {/* <FunctionProps name="suprava" email="suprava@gmail.com"/> */}
-      <FunctionStateVariable/>
+      {/* <FunctionStateVariable/> */}
+      {/* <ChangeEvent/> */}
+      <Design/>
       </div>
     )
   }
