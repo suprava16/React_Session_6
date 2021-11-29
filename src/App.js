@@ -17,6 +17,7 @@ import FunctionProps from "./Functiona components/FunctionProps"
 import FunctionStateVariable from "./Functiona components/FunctionStateVariable"
 import ChangeEvent from "./Functiona components/ChangeEvent"
 import Design from "./MaterialUi/Design"
+import Routing from "./React_Router/Routing"
 export class App extends React.Component{
   render(){
     return(
@@ -39,7 +40,8 @@ export class App extends React.Component{
       {/* <FunctionProps name="suprava" email="suprava@gmail.com"/> */}
       {/* <FunctionStateVariable/> */}
       {/* <ChangeEvent/> */}
-      <Design/>
+      {/* <Design/> */}
+      <Routing/>
       </div>
     )
   }
